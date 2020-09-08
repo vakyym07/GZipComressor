@@ -1,0 +1,8 @@
+C:\VeemTestTask\GZIP\Core\bin\Debug\netcoreapp3.0\Core.deps.json
+C:\VeemTestTask\GZIP\Core\bin\Debug\netcoreapp3.0\Core.dll
+C:\VeemTestTask\GZIP\Core\bin\Debug\netcoreapp3.0\Core.pdb
+C:\VeemTestTask\GZIP\Core\obj\Debug\netcoreapp3.0\Core.csprojAssemblyReference.cache
+C:\VeemTestTask\GZIP\Core\obj\Debug\netcoreapp3.0\Core.AssemblyInfoInputs.cache
+C:\VeemTestTask\GZIP\Core\obj\Debug\netcoreapp3.0\Core.AssemblyInfo.cs
+C:\VeemTestTask\GZIP\Core\obj\Debug\netcoreapp3.0\Core.dll
+C:\VeemTestTask\GZIP\Core\obj\Debug\netcoreapp3.0\Core.pdb

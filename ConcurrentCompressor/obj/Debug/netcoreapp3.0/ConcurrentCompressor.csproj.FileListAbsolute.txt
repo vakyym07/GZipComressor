@@ -1,0 +1,13 @@
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\ConcurrentCompressor.deps.json
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\ConcurrentCompressor.dll
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\ConcurrentCompressor.pdb
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\BlockCompressor.dll
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\Core.dll
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\BlockCompressor.pdb
+C:\VeemTestTask\GZIP\ConcurrentCompressor\bin\Debug\netcoreapp3.0\Core.pdb
+C:\VeemTestTask\GZIP\ConcurrentCompressor\obj\Debug\netcoreapp3.0\ConcurrentCompressor.csprojAssemblyReference.cache
+C:\VeemTestTask\GZIP\ConcurrentCompressor\obj\Debug\netcoreapp3.0\ConcurrentCompressor.AssemblyInfoInputs.cache
+C:\VeemTestTask\GZIP\ConcurrentCompressor\obj\Debug\netcoreapp3.0\ConcurrentCompressor.AssemblyInfo.cs
+C:\VeemTestTask\GZIP\ConcurrentCompressor\obj\Debug\netcoreapp3.0\ConcurrentCompressor.csproj.CopyComplete
+C:\VeemTestTask\GZIP\ConcurrentCompressor\obj\Debug\netcoreapp3.0\ConcurrentCompressor.dll
+C:\VeemTestTask\GZIP\ConcurrentCompressor\obj\Debug\netcoreapp3.0\ConcurrentCompressor.pdb

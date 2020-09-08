@@ -1,0 +1,162 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CommandLineParser/2.7.82": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {}
+        }
+      },
+      "BlockCompressor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/BlockCompressor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlockCompressor.dll": {}
+        }
+      },
+      "ConcurrentCompressor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "BlockCompressor": "1.0.0",
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ConcurrentCompressor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConcurrentCompressor.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommandLineParser/2.7.82": {
+      "sha512": "JnjxBu4++EDnYtDzHskiPrPJ9hAna8amu8qlQx8J+2oZnPddDnkR/0FFtQMDz0Cs0YF2lbyW3OmYfRmIrLNY0A==",
+      "type": "package",
+      "path": "commandlineparser/2.7.82",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CommandLine20.png",
+        "License.md",
+        "README.md",
+        "commandlineparser.2.7.82.nupkg.sha512",
+        "commandlineparser.nuspec",
+        "lib/net40/CommandLine.dll",
+        "lib/net40/CommandLine.xml",
+        "lib/net45/CommandLine.dll",
+        "lib/net45/CommandLine.xml",
+        "lib/net461/CommandLine.dll",
+        "lib/net461/CommandLine.xml",
+        "lib/netstandard2.0/CommandLine.dll",
+        "lib/netstandard2.0/CommandLine.xml"
+      ]
+    },
+    "BlockCompressor/1.0.0": {
+      "type": "project",
+      "path": "../BlockCompressor/BlockCompressor.csproj",
+      "msbuildProject": "../BlockCompressor/BlockCompressor.csproj"
+    },
+    "ConcurrentCompressor/1.0.0": {
+      "type": "project",
+      "path": "../ConcurrentCompressor/ConcurrentCompressor.csproj",
+      "msbuildProject": "../ConcurrentCompressor/ConcurrentCompressor.csproj"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "CommandLineParser >= 2.7.82",
+      "ConcurrentCompressor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\a.soldatenko\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\VeemTestTask\\GZIP\\GZipTest\\GZipTest.csproj",
+      "projectName": "GZipTest",
+      "projectPath": "C:\\VeemTestTask\\GZIP\\GZipTest\\GZipTest.csproj",
+      "packagesPath": "C:\\Users\\a.soldatenko\\.nuget\\packages\\",
+      "outputPath": "C:\\VeemTestTask\\GZIP\\GZipTest\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\a.soldatenko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj": {
+              "projectPath": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "[2.7.82, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

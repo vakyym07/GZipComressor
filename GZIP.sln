@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockCompressor", "BlockCompressor\BlockCompressor.csproj", "{F2E6960F-4560-4318-84C3-1792F11A389B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockCompressorTest", "BlockCompressorTest\BlockCompressorTest.csproj", "{5903E10C-4342-4FAF-8635-0446D6FD8471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCompressor", "ConcurrentCompressor\ConcurrentCompressor.csproj", "{5E5FB76B-089E-49F9-91CD-394C636607B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{92AF0AC1-4E39-409D-B4D5-6FA52A05BAA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTest", "CoreTest\CoreTest.csproj", "{19674557-EA0D-4160-98A7-7EEAE6249469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCompressorTest", "ConcurrentCompressorTest\ConcurrentCompressorTest.csproj", "{ECF73E8E-52B2-42AC-A013-646E1047C70B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GZipTest", "GZipTest\GZipTest.csproj", "{5E1B586F-308A-4E8E-946C-79BFDD81D541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E6960F-4560-4318-84C3-1792F11A389B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E6960F-4560-4318-84C3-1792F11A389B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E6960F-4560-4318-84C3-1792F11A389B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E6960F-4560-4318-84C3-1792F11A389B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5903E10C-4342-4FAF-8635-0446D6FD8471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5903E10C-4342-4FAF-8635-0446D6FD8471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5903E10C-4342-4FAF-8635-0446D6FD8471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5903E10C-4342-4FAF-8635-0446D6FD8471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5FB76B-089E-49F9-91CD-394C636607B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5FB76B-089E-49F9-91CD-394C636607B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5FB76B-089E-49F9-91CD-394C636607B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5FB76B-089E-49F9-91CD-394C636607B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AF0AC1-4E39-409D-B4D5-6FA52A05BAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AF0AC1-4E39-409D-B4D5-6FA52A05BAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AF0AC1-4E39-409D-B4D5-6FA52A05BAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AF0AC1-4E39-409D-B4D5-6FA52A05BAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19674557-EA0D-4160-98A7-7EEAE6249469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19674557-EA0D-4160-98A7-7EEAE6249469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19674557-EA0D-4160-98A7-7EEAE6249469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19674557-EA0D-4160-98A7-7EEAE6249469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF73E8E-52B2-42AC-A013-646E1047C70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF73E8E-52B2-42AC-A013-646E1047C70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF73E8E-52B2-42AC-A013-646E1047C70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF73E8E-52B2-42AC-A013-646E1047C70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1B586F-308A-4E8E-946C-79BFDD81D541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1B586F-308A-4E8E-946C-79BFDD81D541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1B586F-308A-4E8E-946C-79BFDD81D541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1B586F-308A-4E8E-946C-79BFDD81D541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

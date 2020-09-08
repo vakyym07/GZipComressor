@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "BlockCompressor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/BlockCompressor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlockCompressor.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlockCompressor/1.0.0": {
+      "type": "project",
+      "path": "../BlockCompressor/BlockCompressor.csproj",
+      "msbuildProject": "../BlockCompressor/BlockCompressor.csproj"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "BlockCompressor >= 1.0.0",
+      "Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\a.soldatenko\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj",
+      "projectName": "ConcurrentCompressor",
+      "projectPath": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj",
+      "packagesPath": "C:\\Users\\a.soldatenko\\.nuget\\packages\\",
+      "outputPath": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\a.soldatenko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj": {
+              "projectPath": "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj"
+            },
+            "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj": {
+              "projectPath": "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

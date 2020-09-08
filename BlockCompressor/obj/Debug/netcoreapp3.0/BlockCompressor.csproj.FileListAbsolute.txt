@@ -1,0 +1,8 @@
+C:\VeemTestTask\GZIP\BlockCompressor\bin\Debug\netcoreapp3.0\BlockCompressor.deps.json
+C:\VeemTestTask\GZIP\BlockCompressor\bin\Debug\netcoreapp3.0\BlockCompressor.dll
+C:\VeemTestTask\GZIP\BlockCompressor\bin\Debug\netcoreapp3.0\BlockCompressor.pdb
+C:\VeemTestTask\GZIP\BlockCompressor\obj\Debug\netcoreapp3.0\BlockCompressor.csprojAssemblyReference.cache
+C:\VeemTestTask\GZIP\BlockCompressor\obj\Debug\netcoreapp3.0\BlockCompressor.AssemblyInfoInputs.cache
+C:\VeemTestTask\GZIP\BlockCompressor\obj\Debug\netcoreapp3.0\BlockCompressor.AssemblyInfo.cs
+C:\VeemTestTask\GZIP\BlockCompressor\obj\Debug\netcoreapp3.0\BlockCompressor.dll
+C:\VeemTestTask\GZIP\BlockCompressor\obj\Debug\netcoreapp3.0\BlockCompressor.pdb

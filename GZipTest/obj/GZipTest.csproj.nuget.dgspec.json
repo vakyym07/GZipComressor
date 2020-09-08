@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\VeemTestTask\\GZIP\\GZipTest\\GZipTest.csproj": {}
+  },
+  "projects": {
+    "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj",
+        "projectName": "BlockCompressor",
+        "projectPath": "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj",
+        "packagesPath": "C:\\Users\\a.soldatenko\\.nuget\\packages\\",
+        "outputPath": "C:\\VeemTestTask\\GZIP\\BlockCompressor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a.soldatenko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj",
+        "projectName": "ConcurrentCompressor",
+        "projectPath": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj",
+        "packagesPath": "C:\\Users\\a.soldatenko\\.nuget\\packages\\",
+        "outputPath": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a.soldatenko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj": {
+                "projectPath": "C:\\VeemTestTask\\GZIP\\BlockCompressor\\BlockCompressor.csproj"
+              },
+              "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj": {
+                "projectPath": "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\VeemTestTask\\GZIP\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\a.soldatenko\\.nuget\\packages\\",
+        "outputPath": "C:\\VeemTestTask\\GZIP\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a.soldatenko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\VeemTestTask\\GZIP\\GZipTest\\GZipTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VeemTestTask\\GZIP\\GZipTest\\GZipTest.csproj",
+        "projectName": "GZipTest",
+        "projectPath": "C:\\VeemTestTask\\GZIP\\GZipTest\\GZipTest.csproj",
+        "packagesPath": "C:\\Users\\a.soldatenko\\.nuget\\packages\\",
+        "outputPath": "C:\\VeemTestTask\\GZIP\\GZipTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a.soldatenko\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj": {
+                "projectPath": "C:\\VeemTestTask\\GZIP\\ConcurrentCompressor\\ConcurrentCompressor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.7.82, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
